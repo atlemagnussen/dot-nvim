@@ -1,5 +1,5 @@
-" atle neovim
-"
+" neovim init.vim
+" @atlemagnussen
 
-source mappings.vim
-source plugins.vim
+source ~/.config/nvim/mappings.vim
+source ~/.config/nvim/plugins.vim
