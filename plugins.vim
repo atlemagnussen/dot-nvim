@@ -15,4 +15,10 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
+Plug 'Valloric/YouCompleteMe'
+
 call plug#end()
+
+"" Plugin configs
+" YouCompleteMe
+let g:ycm_server_python_interpreter = '/usr/bin/python3'

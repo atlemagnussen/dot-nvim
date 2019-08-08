@@ -11,11 +11,13 @@ Plug - https://github.com/junegunn/vim-plug
 # Plugins
 ## File tree explorer
 - **[NerdTree](https://github.com/scrooloose/nerdtree)**
+- [Fila](https://github.com/lambdalisue/fila.vim)
 ## File finder
 - **[FZF](https://github.com/junegunn/fzf.vim)**
 - [Command-T](https://github.com/wincent/command-t)
 ## Autocompletion
 - **[YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)**
+- [Deoplete](https://github.com/Shougo/deoplete.nvim)
 ## Linting
 - **[ALE](https://github.com/dense-analysis/ale)**
 
@@ -26,7 +28,7 @@ Plug - https://github.com/junegunn/vim-plug
 
 Then install and build ycm by running:
 ```sh
-cd ~/.vim/plugged/YouCompleteMe
+cd ~/.config/nvim/plugged/YouCompleteMe
 python3 install.py --cs-completer --js-completer
 ```
 
