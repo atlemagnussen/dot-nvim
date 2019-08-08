@@ -15,7 +15,7 @@ Plug - https://github.com/junegunn/vim-plug
 - **[FZF](https://github.com/junegunn/fzf.vim)**
 - [Command-T](https://github.com/wincent/command-t)
 ## Autocompletion
-- **[YouCompleteMe (Follow Install Instructions)](https://github.com/ycm-core/YouCompleteMe)**
+- **[YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)**
 ## Linting
 - **[ALE](https://github.com/dense-analysis/ale)**
 
