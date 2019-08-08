@@ -9,6 +9,7 @@ Plug - https://github.com/junegunn/vim-plug
 - will auto install plug and the plugin  on first nvim load after cloning to .vim
 
 # Plugins
+**bold** means currently in use
 ## File tree explorer
 - **[NerdTree](https://github.com/scrooloose/nerdtree)**
 - [Fila](https://github.com/lambdalisue/fila.vim)
@@ -19,7 +20,8 @@ Plug - https://github.com/junegunn/vim-plug
 - **[YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)**
 - [Deoplete](https://github.com/Shougo/deoplete.nvim)
 ## Linting
-- **[ALE](https://github.com/dense-analysis/ale)**
+- [ALE](https://github.com/dense-analysis/ale)
+- **[Neomake](https://github.com/neomake/neomake)**
 ## Syntax Highlighting
 - **[vim-javascript](https://github.com/pangloss/vim-javascript)**
 ## Extra work to install
