@@ -20,7 +20,8 @@ Plug - https://github.com/junegunn/vim-plug
 - [Deoplete](https://github.com/Shougo/deoplete.nvim)
 ## Linting
 - **[ALE](https://github.com/dense-analysis/ale)**
-
+## Syntax Highlighting
+- **[vim-javascript](https://github.com/pangloss/vim-javascript)**
 ## Extra work to install
 ### YouCompleteMe
 - need `build-essential cmake python3` as a prerequisite on the system.

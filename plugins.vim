@@ -17,6 +17,8 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'Valloric/YouCompleteMe'
 
+Plug 'pangloss/vim-javascript'
+
 call plug#end()
 
 "" Plugin configs
