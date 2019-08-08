@@ -27,6 +27,7 @@ Plug - https://github.com/junegunn/vim-plug
 ## Extra work to install
 ### YouCompleteMe
 - need `build-essential cmake python3` as a prerequisite on the system.
+- need `pip3 install --user neovim`
 - need `npm install typescript` for js autocompletion
 
 Then install and build ycm by running:
