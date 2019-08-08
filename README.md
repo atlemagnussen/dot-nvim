@@ -9,11 +9,17 @@ Plug - https://github.com/junegunn/vim-plug
 - will auto install plug and the plugin  on first nvim load after cloning to .vim
 
 # Plugins
-- [NerdTree](https://github.com/scrooloose/nerdtree)
+## File tree explorer
+- *[NerdTree](https://github.com/scrooloose/nerdtree)*
+## File finder
+- *[FZF](https://github.com/junegunn/fzf.vim)*
+- [Command-T](https://github.com/wincent/command-t)
+## Autocompletion
 - [YouCompleteMe (Follow Install Instructions)](https://github.com/ycm-core/YouCompleteMe)
-- [FZF](https://github.com/junegunn/fzf.vim)
+## Linting
+- [ALE](https://github.com/dense-analysis/ale)
 
-## Plugins that needs extra work to install
+## Extra work to install
 ### YouCompleteMe
 - need `build-essential cmake python3` as a prerequisite on the system.
 - need `npm install typescript` for js autocompletion
@@ -26,3 +32,9 @@ python3 install.py --cs-completer --js-completer
 
 ### FZF
 - need `fzf` installed on system.
+
+# Color themes
+- [Molokai](https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim)
+- [Monokai](https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim)
+- [Sunburst](https://raw.githubusercontent.com/sickill/vim-sunburst/master/colors/Sunburst.vim)
+- [Moonfly](https://raw.githubusercontent.com/bluz71/vim-moonfly-colors/master/colors/moonfly.vim)
