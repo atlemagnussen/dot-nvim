@@ -10,14 +10,14 @@ Plug - https://github.com/junegunn/vim-plug
 
 # Plugins
 ## File tree explorer
-- *[NerdTree](https://github.com/scrooloose/nerdtree)*
+- **[NerdTree](https://github.com/scrooloose/nerdtree)**
 ## File finder
-- *[FZF](https://github.com/junegunn/fzf.vim)*
+- **[FZF](https://github.com/junegunn/fzf.vim)**
 - [Command-T](https://github.com/wincent/command-t)
 ## Autocompletion
-- [YouCompleteMe (Follow Install Instructions)](https://github.com/ycm-core/YouCompleteMe)
+- **[YouCompleteMe (Follow Install Instructions)](https://github.com/ycm-core/YouCompleteMe)**
 ## Linting
-- [ALE](https://github.com/dense-analysis/ale)
+- **[ALE](https://github.com/dense-analysis/ale)**
 
 ## Extra work to install
 ### YouCompleteMe
