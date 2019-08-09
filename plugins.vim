@@ -15,7 +15,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
-Plug 'Valloric/YouCompleteMe'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'pangloss/vim-javascript'
 
@@ -32,6 +32,7 @@ let g:ycm_server_python_interpreter = '/usr/bin/python3'
 
 " Neomake
 let g:neomake_open_list = 2
+let g:neomake_javascript_enabled_makers = ['eslint']
 "call neomake#configure#automake('rw', 1000) " on read and write
 "call neomake#configure#automake('nrwi', 500) " + normal and insert
 call neomake#configure#automake('nrw', 500)

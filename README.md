@@ -10,21 +10,28 @@ Plug - https://github.com/junegunn/vim-plug
 
 # Plugins
 **bold** means currently in use
+
 ## File tree explorer
 - **[NerdTree](https://github.com/scrooloose/nerdtree)**
 - [Fila](https://github.com/lambdalisue/fila.vim)
+
 ## File finder
 - **[FZF](https://github.com/junegunn/fzf.vim)**
 - [Command-T](https://github.com/wincent/command-t)
+
 ## Autocompletion
-- **[YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)**
+- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 - [Deoplete](https://github.com/Shougo/deoplete.nvim)
+- **[Coc](https://github.com/neoclide/coc.nvim)**
+
 ## Linting
 - [ALE](https://github.com/dense-analysis/ale)
 - **[Neomake](https://github.com/neomake/neomake)**
+
 ## Syntax Highlighting
 - **[vim-javascript](https://github.com/pangloss/vim-javascript)**
-## Extra work to install
+
+## Extra work
 ### YouCompleteMe
 - need `build-essential cmake python3` as a prerequisite on the system.
 - need `pip3 install --user neovim`
@@ -44,3 +51,7 @@ python3 install.py --cs-completer --js-completer
 - [Monokai](https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim)
 - [Sunburst](https://raw.githubusercontent.com/sickill/vim-sunburst/master/colors/Sunburst.vim)
 - [Moonfly](https://raw.githubusercontent.com/bluz71/vim-moonfly-colors/master/colors/moonfly.vim)
+
+### Coc
+- Install [coc json](https://github.com/neoclide/coc-json) `:CocInstall coc-json`
+- Install [tsserver](https://github.com/neoclide/coc-tsserver) `:CocInstall coc-tsserver`
