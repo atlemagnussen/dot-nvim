@@ -52,6 +52,14 @@ python3 install.py --cs-completer --js-completer
 - Install [coc-tsserver](https://github.com/neoclide/coc-tsserver) `:CocInstall coc-tsserver`
 - Install [coc-eslint](https://github.com/neoclide/coc-eslint) `CocInstall coc-eslint`
 
+### The Silver Searcher
+- install [Silver searcher](https://github.com/ggreer/the_silver_searcher) to the system
+- Then use `:Ag` in vim to search file content
+
+### RipGrep
+- install [ripgrep](https://github.com/BurntSushi/ripgrep) to the system
+- Then use `:Rg` in vim to search file content with regular expressions
+
 # Color themes
 - [Molokai](https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim)
 - [Monokai](https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim)
