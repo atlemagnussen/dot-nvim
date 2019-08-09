@@ -23,6 +23,7 @@ Plug - https://github.com/junegunn/vim-plug
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 - [Deoplete](https://github.com/Shougo/deoplete.nvim)
 - **[Coc](https://github.com/neoclide/coc.nvim)**
+- [Asyncomplete](https://github.com/prabirshrestha/asyncomplete.vim)
 
 ## Linting
 - [ALE](https://github.com/dense-analysis/ale)
