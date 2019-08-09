@@ -27,7 +27,7 @@ Plug - https://github.com/junegunn/vim-plug
 
 ## Linting
 - [ALE](https://github.com/dense-analysis/ale)
-- **[Neomake](https://github.com/neomake/neomake)**
+- [Neomake](https://github.com/neomake/neomake)
 
 ## Syntax Highlighting
 - **[vim-javascript](https://github.com/pangloss/vim-javascript)**
@@ -47,12 +47,14 @@ python3 install.py --cs-completer --js-completer
 ### FZF
 - need `fzf` installed on system.
 
+### Coc
+- Install [coc json](https://github.com/neoclide/coc-json) `:CocInstall coc-json`
+- Install [coc-tsserver](https://github.com/neoclide/coc-tsserver) `:CocInstall coc-tsserver`
+- Install [coc-eslint](https://github.com/neoclide/coc-eslint) `CocInstall coc-eslint`
+
 # Color themes
 - [Molokai](https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim)
 - [Monokai](https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim)
 - [Sunburst](https://raw.githubusercontent.com/sickill/vim-sunburst/master/colors/Sunburst.vim)
 - [Moonfly](https://raw.githubusercontent.com/bluz71/vim-moonfly-colors/master/colors/moonfly.vim)
 
-### Coc
-- Install [coc json](https://github.com/neoclide/coc-json) `:CocInstall coc-json`
-- Install [tsserver](https://github.com/neoclide/coc-tsserver) `:CocInstall coc-tsserver`

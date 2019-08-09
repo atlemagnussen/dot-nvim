@@ -19,7 +19,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'pangloss/vim-javascript'
 
-Plug 'neomake/neomake'
+"Plug 'neomake/neomake'
 
 call plug#end()
 
@@ -31,8 +31,8 @@ let NERDTreeShowHidden=1
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
 
 " Neomake
-let g:neomake_open_list = 2
-let g:neomake_javascript_enabled_makers = ['eslint']
+"let g:neomake_open_list = 2
+"let g:neomake_javascript_enabled_makers = ['eslint']
 "call neomake#configure#automake('rw', 1000) " on read and write
 "call neomake#configure#automake('nrwi', 500) " + normal and insert
-call neomake#configure#automake('nrw', 500)
+"call neomake#configure#automake('nrw', 500)
