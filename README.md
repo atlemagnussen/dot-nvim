@@ -2,7 +2,7 @@
 @atlemagnussen
 
 clone to $HOME/.config/nvim/
-
+[my cheat sheet](./cheatsheet.md)
 # Plugin manager
 Plug - https://github.com/junegunn/vim-plug
 
