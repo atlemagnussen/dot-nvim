@@ -3,10 +3,10 @@
 
 | desc                 | hotkey | command  |
 | -------------------- | ------ | -------- |
-| Nerdtree Toggle      | <C-n>  |          |
-| Nerdtree Refresh     | <r>    |          |
+| Nerdtree Toggle      | \<C-n\>  |          |
+| Nerdtree Refresh     | \<r\>    |          |
 | Ag silver search     |        | :Ag      |
-| Fzf Git Files        | <C-t>  | :GFiles  |
+| Fzf Git Files        | \<C-t\>  | :GFiles  |
 
 ## Window
 
