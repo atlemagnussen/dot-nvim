@@ -36,3 +36,13 @@ let g:ycm_server_python_interpreter = '/usr/bin/python3'
 "call neomake#configure#automake('rw', 1000) " on read and write
 "call neomake#configure#automake('nrwi', 500) " + normal and insert
 "call neomake#configure#automake('nrw', 500)
+
+" COC
+" if hidden is not set, TextEdit might fail.
+set hidden
+
+" Better display for messages
+set cmdheight=2
+
+" You will have bad experience for diagnostic messages when it's default 4000.
+set updatetime=300
