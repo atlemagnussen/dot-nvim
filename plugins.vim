@@ -37,12 +37,36 @@ let g:ycm_server_python_interpreter = '/usr/bin/python3'
 "call neomake#configure#automake('nrwi', 500) " + normal and insert
 "call neomake#configure#automake('nrw', 500)
 
+
 " COC
+let g:coc_global_extensions = ["coc-css",
+            \ "coc-eslint",
+            \ "coc-html",
+            \ "coc-json",
+            \ "coc-prettier",
+            \ "coc-python",
+            \ "coc-tslint",
+            \ "coc-tsserver",
+            \ "coc-ultisnips",
+            \ "coc-tailwindcss",
+            \ "coc-vetur"]
+
 " if hidden is not set, TextEdit might fail.
 set hidden
+
+" Some servers have issues with backup files, see #649
+set nobackup
+set nowritebackup
 
 " Better display for messages
 set cmdheight=2
 
 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=300
+
+" don't give |ins-completion-menu| messages.
+set shortmess+=c
+
+" always show signcolumns
+set signcolumn=yes
+
