@@ -43,7 +43,8 @@ let g:coc_global_extensions = ["coc-css",
             \ "coc-json",
             \ "coc-python",
             \ "coc-tsserver",
-            \ "coc-tailwindcss"]
+            \ "coc-tailwindcss",
+            \ "coc-omnisharp"]
 
 " if hidden is not set, TextEdit might fail.
 set hidden
