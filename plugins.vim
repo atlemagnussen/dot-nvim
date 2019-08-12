@@ -19,8 +19,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'pangloss/vim-javascript'
 
-"Plug 'neomake/neomake'
-
 call plug#end()
 
 "" Plugin configs
@@ -43,13 +41,9 @@ let g:coc_global_extensions = ["coc-css",
             \ "coc-eslint",
             \ "coc-html",
             \ "coc-json",
-            \ "coc-prettier",
             \ "coc-python",
-            \ "coc-tslint",
             \ "coc-tsserver",
-            \ "coc-ultisnips",
-            \ "coc-tailwindcss",
-            \ "coc-vetur"]
+            \ "coc-tailwindcss"]
 
 " if hidden is not set, TextEdit might fail.
 set hidden
