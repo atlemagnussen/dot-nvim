@@ -1,4 +1,6 @@
 {
     "diagnostic.refreshOnInsertMode": true,
-    "diagnostic.checkCurrentLine": true
+    "diagnostic.checkCurrentLine": true,
+
+    "eslint.filetypes": ["javascript", "javascriptreact", "typescript"]
 }

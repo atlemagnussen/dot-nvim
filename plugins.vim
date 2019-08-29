@@ -19,7 +19,16 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'pangloss/vim-javascript'
 
+Plug 'OmniSharp/omnisharp-vim'
+
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
 call plug#end()
+
+let g:OmniSharp_server_stdio = 1
 
 "" Plugin configs
 " NerdTree
@@ -43,8 +52,7 @@ let g:coc_global_extensions = ["coc-css",
             \ "coc-json",
             \ "coc-python",
             \ "coc-tsserver",
-            \ "coc-tailwindcss",
-            \ "coc-omnisharp"]
+            \ "coc-tailwindcss"]
 
 " if hidden is not set, TextEdit might fail.
 set hidden
@@ -64,4 +72,7 @@ set shortmess+=c
 
 " always show signcolumns
 set signcolumn=yes
+
+" vim-prettier
+let g:prettier#exec_cmd_async = 1
 

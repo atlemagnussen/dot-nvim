@@ -12,4 +12,4 @@ set expandtab       " tabs are space
 set autoindent
 "set copyindent      " copy indent from the previous line
 
-"colorscheme molokai
+colorscheme dracula
