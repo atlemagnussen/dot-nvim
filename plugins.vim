@@ -18,6 +18,7 @@ Plug 'junegunn/fzf.vim'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 Plug 'OmniSharp/omnisharp-vim'
 
@@ -26,9 +27,10 @@ Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
-"Plug 'justmao945/vim-clang'
-"Plug 'bbchung/clighter8'
 Plug 'arakashic/chromatica.nvim'
+
+Plug 'evanleck/vim-svelte'
+
 call plug#end()
 
 let g:OmniSharp_server_stdio = 1
@@ -80,8 +82,10 @@ set signcolumn=yes
 let g:prettier#exec_cmd_async = 1
 
 " clang
-"let g:clang_c_options = '-std=gnu11'
-"let g:clang_cpp_options = '-std=c++11 -stdlib=libc++'
-
 "let g:chromatica#libclang_path='/usr/lib'
 let g:chromatica#enable_at_startup=1
+
+" vim-svelte
+let g:svelte_indent_script = 0
+let g:svelte_indent_style = 0
+

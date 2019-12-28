@@ -11,6 +11,7 @@ map <F4> :Colors<CR>
 map <F5> :terminal<CR>
 map <F6> :bn<CR>
 map <F7> :bp<CR>
+map <F8> :PrettierAsync<CR>
 
 " NERDtree ###########################################################
 map <C-n> :NERDTreeToggle<CR>
