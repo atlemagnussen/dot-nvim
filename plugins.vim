@@ -15,7 +15,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'pangloss/vim-javascript'
 
@@ -26,6 +26,9 @@ Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
+"Plug 'justmao945/vim-clang'
+"Plug 'bbchung/clighter8'
+Plug 'arakashic/chromatica.nvim'
 call plug#end()
 
 let g:OmniSharp_server_stdio = 1
@@ -46,13 +49,13 @@ let g:ycm_server_python_interpreter = '/usr/bin/python3'
 
 
 " COC
-let g:coc_global_extensions = ["coc-css",
-            \ "coc-eslint",
-            \ "coc-html",
-            \ "coc-json",
-            \ "coc-python",
-            \ "coc-tsserver",
-            \ "coc-tailwindcss"]
+"let g:coc_global_extensions = ["coc-css",
+"            \ "coc-eslint",
+"            \ "coc-html",
+"            \ "coc-json",
+"            \ "coc-python",
+"            \ "coc-tsserver",
+"            \ "coc-tailwindcss"]
 
 " if hidden is not set, TextEdit might fail.
 set hidden
@@ -76,3 +79,9 @@ set signcolumn=yes
 " vim-prettier
 let g:prettier#exec_cmd_async = 1
 
+" clang
+"let g:clang_c_options = '-std=gnu11'
+"let g:clang_cpp_options = '-std=c++11 -stdlib=libc++'
+
+"let g:chromatica#libclang_path='/usr/lib'
+let g:chromatica#enable_at_startup=1
