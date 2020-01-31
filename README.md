@@ -22,7 +22,7 @@ Plug - https://github.com/junegunn/vim-plug
 ## Autocompletion
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 - [Deoplete](https://github.com/Shougo/deoplete.nvim)
-- **[Coc](https://github.com/neoclide/coc.nvim)**
+- [Coc](https://github.com/neoclide/coc.nvim)
 - [Asyncomplete](https://github.com/prabirshrestha/asyncomplete.vim)
 
 ## Linting
@@ -30,27 +30,23 @@ Plug - https://github.com/junegunn/vim-plug
 - [Neomake](https://github.com/neomake/neomake)
 
 ## Syntax Highlighting
-- **[vim-javascript](https://github.com/pangloss/vim-javascript)**
+- [(js) vim-javascript](https://github.com/pangloss/vim-javascript)
+- [(ts) YATS](https://github.com/HerringtonDarkholme/yats.vim)
+- [(C) Chromatica](https://github.com/arakashic/chromatica.nvim)
 
 ## Extra work
-### YouCompleteMe
 - need `build-essential cmake python3` as a prerequisite on the system.
 - need `pip3 install --user neovim`
 - need `npm install typescript` for js autocompletion
 
-Then install and build ycm by running:
+### clang
+For Ubuntu:
 ```sh
-cd ~/.config/nvim/plugged/YouCompleteMe
-python3 install.py --cs-completer --js-completer
+let g:chromatica#libclang_path='/usr/lib/llvm-6.0/lib/libclang-6.0.so.1'
+let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/include']
 ```
-
 ### FZF
 - need `fzf` installed on system.
-
-### Coc
-- Install [coc json](https://github.com/neoclide/coc-json) `:CocInstall coc-json`
-- Install [coc-tsserver](https://github.com/neoclide/coc-tsserver) `:CocInstall coc-tsserver`
-- Install [coc-eslint](https://github.com/neoclide/coc-eslint) `CocInstall coc-eslint`
 
 ### The Silver Searcher
 - install [Silver searcher](https://github.com/ggreer/the_silver_searcher) to the system

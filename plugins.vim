@@ -15,8 +15,6 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 
@@ -82,8 +80,9 @@ set signcolumn=yes
 let g:prettier#exec_cmd_async = 1
 
 " clang
-"let g:chromatica#libclang_path='/usr/lib'
+let g:chromatica#libclang_path='/usr/lib/llvm-6.0/lib/libclang-6.0.so.1'
 let g:chromatica#enable_at_startup=1
+let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/include']
 
 " vim-svelte
 let g:svelte_indent_script = 0
