@@ -24,8 +24,8 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-
-Plug 'arakashic/chromatica.nvim'
+Plug 'w0rp/ale'
+"Plug 'arakashic/chromatica.nvim'
 
 Plug 'evanleck/vim-svelte'
 
@@ -88,3 +88,8 @@ let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/inclu
 let g:svelte_indent_script = 0
 let g:svelte_indent_style = 0
 
+let g:ale_fixers = {
+ \ 'javascript': ['eslint']
+ \ }
+let g:ale_sign_error = '☢'
+let g:ale_sign_warning = '⚠️'
