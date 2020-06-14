@@ -24,7 +24,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 "Plug 'arakashic/chromatica.nvim'
 
 Plug 'evanleck/vim-svelte'
@@ -36,26 +36,6 @@ let g:OmniSharp_server_stdio = 1
 "" Plugin configs
 " NerdTree
 let NERDTreeShowHidden=1
-
-" YouCompleteMe
-let g:ycm_server_python_interpreter = '/usr/bin/python3'
-
-" Neomake
-"let g:neomake_open_list = 2
-"let g:neomake_javascript_enabled_makers = ['eslint']
-"call neomake#configure#automake('rw', 1000) " on read and write
-"call neomake#configure#automake('nrwi', 500) " + normal and insert
-"call neomake#configure#automake('nrw', 500)
-
-
-" COC
-"let g:coc_global_extensions = ["coc-css",
-"            \ "coc-eslint",
-"            \ "coc-html",
-"            \ "coc-json",
-"            \ "coc-python",
-"            \ "coc-tsserver",
-"            \ "coc-tailwindcss"]
 
 " if hidden is not set, TextEdit might fail.
 set hidden
@@ -80,16 +60,13 @@ set signcolumn=yes
 let g:prettier#exec_cmd_async = 1
 
 " clang
-let g:chromatica#libclang_path='/usr/lib/llvm-6.0/lib/libclang-6.0.so.1'
-let g:chromatica#enable_at_startup=1
-let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/include']
+"let g:chromatica#libclang_path='/usr/lib/llvm-6.0/lib/libclang-6.0.so.1'
+"let g:chromatica#enable_at_startup=1
+"let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/include']
 
 " vim-svelte
 let g:svelte_indent_script = 0
 let g:svelte_indent_style = 0
 
-let g:ale_fixers = {
- \ 'javascript': ['eslint']
- \ }
-let g:ale_sign_error = '☢'
-let g:ale_sign_warning = '⚠️'
+" ALE config
+source ~/.config/nvim/ale-conf.vim
