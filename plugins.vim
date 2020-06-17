@@ -7,6 +7,9 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" must be set before ale is loaded
+let g:ale_completion_enabled = 1
+
 " init plug and list plugins inside
 call plug#begin('~/.config/nvim/plugged')
 
@@ -21,7 +24,7 @@ Plug 'mxw/vim-jsx'
 Plug 'OmniSharp/omnisharp-vim'
 
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+"Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'dense-analysis/ale'
