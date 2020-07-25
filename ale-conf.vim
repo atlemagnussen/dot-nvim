@@ -1,6 +1,10 @@
+
+let g:ale_linter_aliases = {'svelte': ['css', 'javascript']}
 let g:ale_linters = {
     \  'javascript': ['eslint'],
+    \  'svelte':     ['stylelint', 'eslint']
     \}
+
 " must be before plugin is loaded
 "let g:ale_completion_enabled = 1
 
