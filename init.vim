@@ -5,7 +5,7 @@
 source ~/.config/nvim/mappings.vim
 source ~/.config/nvim/plugins.vim
 
-source ~/.config/nvim/initomni.lua
+luafile ~/.config/nvim/lspsetup.lua
 
 " Spaces & Tabs
 set tabstop=4       " number of visual spaces per TAB

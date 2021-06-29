@@ -19,6 +19,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+Plug 'hrsh7th/nvim-compe'
 "Plug 'pangloss/vim-javascript'
 "Plug 'mxw/vim-jsx'
 
