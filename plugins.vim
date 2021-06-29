@@ -13,24 +13,25 @@ let g:ale_completion_enabled = 1
 " init plug and list plugins inside
 call plug#begin('~/.config/nvim/plugged')
 
+Plug 'neovim/nvim-lspconfig'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+"Plug 'pangloss/vim-javascript'
+"Plug 'mxw/vim-jsx'
 
-Plug 'OmniSharp/omnisharp-vim'
+"Plug 'OmniSharp/omnisharp-vim'
 
-Plug 'HerringtonDarkholme/yats.vim'
+"Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
-Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-Plug 'dense-analysis/ale'
+"Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+"Plug 'dense-analysis/ale'
 "Plug 'arakashic/chromatica.nvim'
 
-Plug 'evanleck/vim-svelte'
+"Plug 'evanleck/vim-svelte'
 
 call plug#end()
 
@@ -60,7 +61,7 @@ set shortmess+=c
 set signcolumn=yes
 
 " vim-prettier
-let g:prettier#exec_cmd_async = 1
+"let g:prettier#exec_cmd_async = 1
 
 " clang
 "let g:chromatica#libclang_path='/usr/lib/llvm-6.0/lib/libclang-6.0.so.1'
@@ -68,8 +69,8 @@ let g:prettier#exec_cmd_async = 1
 "let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/include']
 
 " vim-svelte
-let g:svelte_indent_script = 0
-let g:svelte_indent_style = 0
+"let g:svelte_indent_script = 0
+"let g:svelte_indent_style = 0
 
 " ALE config
-source ~/.config/nvim/ale-conf.vim
+"source ~/.config/nvim/ale-conf.vim

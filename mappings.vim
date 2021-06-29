@@ -21,5 +21,5 @@ map <C-t> :GFiles<CR>
 map <C-f> :Files<CR>
 
 " ALE
-autocmd FileType javascript imap <C-Space> <Plug>(ale_complete)
+"autocmd FileType javascript imap <C-Space> <Plug>(ale_complete)
 

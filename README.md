@@ -11,6 +11,10 @@ Plug - https://github.com/junegunn/vim-plug
 # Plugins
 **bold** means currently in use
 
+## LSP
+- **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**
+    - https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#omnisharp
+
 ## File tree explorer
 - **[NerdTree](https://github.com/scrooloose/nerdtree)**
 - [Fila](https://github.com/lambdalisue/fila.vim)
