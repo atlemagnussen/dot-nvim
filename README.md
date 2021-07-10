@@ -14,6 +14,7 @@ Plug - https://github.com/junegunn/vim-plug
 ## LSP
 - **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**
     - https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#omnisharp
+    - Download and extract [Omnisharp](https://github.com/OmniSharp/omnisharp-roslyn) and extraxt into ~/bin/omnisharp
 
 ## File tree explorer
 - **[NerdTree](https://github.com/scrooloose/nerdtree)**
