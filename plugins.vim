@@ -20,6 +20,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 Plug 'hrsh7th/nvim-compe'
+
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
+
 "Plug 'pangloss/vim-javascript'
 "Plug 'mxw/vim-jsx'
 

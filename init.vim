@@ -7,6 +7,7 @@ source ~/.config/nvim/plugins.vim
 
 "luafile ~/.config/nvim/lspsetup.lua
 lua require("atle.lspsetup")
+lua require("atle.treesitter")
 
 " Spaces & Tabs
 set tabstop=4       " number of visual spaces per TAB
