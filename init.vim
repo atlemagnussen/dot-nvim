@@ -3,7 +3,8 @@
 
 
 source ~/.config/nvim/mappings.vim
-source ~/.config/nvim/plugins.vim
+"source ~/.config/nvim/plugins.vim
+lua require("atle.plugins")
 
 "luafile ~/.config/nvim/lspsetup.lua
 lua require("atle.lspsetup")
@@ -17,6 +18,5 @@ set expandtab       " tabs are space
 set autoindent
 "set copyindent      " copy indent from the previous line
 
-colorscheme molokai
-"colorscheme dracula
-hi Normal guibg=NONE ctermbg=NONE
+
+autocmd BufWritePost plugins.lua source <afile> | PackerCompile

@@ -1,6 +1,9 @@
 " vim/neovim plugins.vim
 " @atlemagnussen
 
+" not in use
+
+
 "" vimplug auto download and install if not present
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -23,6 +26,10 @@ Plug 'hrsh7th/nvim-compe'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
+" #### themes ####
+Plug 'mhartington/oceanic-next'
+Plug 'rktjmp/lush.nvim'
+Plug 'npxbr/gruvbox.nvim'
 
 "Plug 'pangloss/vim-javascript'
 "Plug 'mxw/vim-jsx'
