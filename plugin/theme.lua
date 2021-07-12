@@ -14,7 +14,10 @@ vim.opt.termguicolors = true
 require("bufferline").setup{
     options = {
         numbers = "none",
-        diagnostics = "nvim_lsp"
+        diagnostics = "nvim_lsp",
+        close_command = "bdelete! %d",
+        right_mouse_command = "bdelete! %d",
+        left_mouse_command = "buffer %d",
     }
 }
 
