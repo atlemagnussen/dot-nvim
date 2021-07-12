@@ -17,6 +17,7 @@ set shiftwidth=4    " number of spaces to use for autoindent
 set expandtab       " tabs are space
 set autoindent
 "set copyindent      " copy indent from the previous line
+set mouse=a
 
 
 autocmd BufWritePost plugins.lua source <afile> | PackerCompile

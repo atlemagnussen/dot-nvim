@@ -18,7 +18,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Fzf ###########################################################
 map <C-t> :GFiles<CR>
-map <C-f> :Files<CR>
+map <C-f> <cmd>lua require("fzf-commands").files()<cr>
 
 " ALE
 "autocmd FileType javascript imap <C-Space> <Plug>(ale_complete)

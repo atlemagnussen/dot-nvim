@@ -13,15 +13,6 @@ end
 
 vim.cmd [[packadd packer.nvim]]
 
-local has = function(x)
-  return vim.fn.has(x) == 1
-end
-
-local is_wsl = (function()
-  local output = vim.fn.systemlist "uname -r"
-  return not not string.find(output[1] or "", "WSL")
-end)()
-
 return require("packer").startup {
     function(use)
         -- important
@@ -29,12 +20,16 @@ return require("packer").startup {
 
         -- lspconfig
         use "neovim/nvim-lspconfig"
-        use "wbthomason/lsp-status.nvim"
+        use "nvim-lua/lsp-status.nvim"
 
+        -- nerd tree
         use "scrooloose/nerdtree"
-
-        use "junegunn/fzf.vim"
-    
+        
+        -- FZF
+        use "vijaymarupudi/nvim-fzf"
+        use "vijaymarupudi/nvim-fzf-commands"
+        use "numkil/ag.nvim" 
+        -- completion
         use "hrsh7th/nvim-compe"
 
         use {
@@ -43,8 +38,6 @@ return require("packer").startup {
         }
 
         --" #### themes ####
-        --Plug 'mhartington/oceanic-next'
-        --use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
         use "tomasr/molokai"
         use "glepnir/zephyr-nvim"
         use "folke/tokyonight.nvim"
@@ -54,14 +47,10 @@ return require("packer").startup {
         use "nxvu699134/vn-night.nvim"
 
         -- ## status line ""
-        use {
-            "glepnir/galaxyline.nvim",
-            branch = 'main',
-            -- your statusline
+        use { "glepnir/galaxyline.nvim", branch = 'main',
             config = function()
                 require'atle.galaxyconf-eviline'
             end,
-            -- some optional icons
             requires = {'kyazdani42/nvim-web-devicons', opt = true}
         }
         -- ## buffer line ##
