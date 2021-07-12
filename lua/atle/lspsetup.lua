@@ -1,6 +1,6 @@
 local pid = vim.fn.getpid()
 
-local omnisharp_bin = "/home/atle/bin/omnisharp/1.37.10/run"
+local omnisharp_bin = "/home/atle/bin/omnisharp/1.37.12/run"
 
 local nvim_lsp = require'lspconfig'
 
