@@ -27,7 +27,7 @@ return require("packer").startup {
         -- important
         use "wbthomason/packer.nvim"
 
-        -- NOTE: lspconfig
+        -- lspconfig
         use "neovim/nvim-lspconfig"
         use "wbthomason/lsp-status.nvim"
 
@@ -64,5 +64,7 @@ return require("packer").startup {
             -- some optional icons
             requires = {'kyazdani42/nvim-web-devicons', opt = true}
         }
+        -- ## buffer line ##
+        use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
     end
 }
