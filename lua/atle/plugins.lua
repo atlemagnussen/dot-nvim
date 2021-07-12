@@ -23,31 +23,46 @@ local is_wsl = (function()
 end)()
 
 return require("packer").startup {
-  function(use)
+    function(use)
+        -- important
+        use "wbthomason/packer.nvim"
 
-    use "wbthomason/packer.nvim"
+        -- NOTE: lspconfig
+        use "neovim/nvim-lspconfig"
+        use "wbthomason/lsp-status.nvim"
 
-    -- NOTE: lspconfig ONLY has configs, for people reading this :)
-    use "neovim/nvim-lspconfig"
-    use "wbthomason/lsp-status.nvim"
+        use "scrooloose/nerdtree"
 
-
-    use "scrooloose/nerdtree"
-
-    use "junegunn/fzf.vim"
+        use "junegunn/fzf.vim"
     
-    use "hrsh7th/nvim-compe"
+        use "hrsh7th/nvim-compe"
 
-    use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-    }
+        use {
+            'nvim-treesitter/nvim-treesitter',
+            run = ':TSUpdate'
+        }
 
-    --" #### themes ####
-    --Plug 'mhartington/oceanic-next'
-    --use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
-    use "tomasr/molokai"
+        --" #### themes ####
+        --Plug 'mhartington/oceanic-next'
+        --use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+        use "tomasr/molokai"
+        use "glepnir/zephyr-nvim"
+        use "folke/tokyonight.nvim"
+        use {"bkegley/gloombuddy", requires = {"tjdevries/colorbuddy.vim"}}
+        use "lourenci/github-colors"
+        use "yashguptaz/calvera-dark.nvim"
+        use "nxvu699134/vn-night.nvim"
 
- end
+        -- ## status line ""
+        use {
+            "glepnir/galaxyline.nvim",
+            branch = 'main',
+            -- your statusline
+            config = function()
+                require'atle.galaxyconf-eviline'
+            end,
+            -- some optional icons
+            requires = {'kyazdani42/nvim-web-devicons', opt = true}
+        }
+    end
 }
-
