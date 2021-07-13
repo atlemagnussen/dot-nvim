@@ -20,6 +20,8 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-t> :GFiles<CR>
 map <C-f> <cmd>lua require("fzf-commands").files()<cr>
 
+nnoremap <leader>sv :source $MYVIMRC<CR>
+
 " ALE
 "autocmd FileType javascript imap <C-Space> <Plug>(ale_complete)
 

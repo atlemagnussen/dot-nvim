@@ -13,7 +13,7 @@ vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
 vim.opt.termguicolors = true
 require("bufferline").setup{
     options = {
-        numbers = "none",
+        numbers = "ordinal",
         diagnostics = "nvim_lsp",
         custom_filter = function(buf_number)
             -- filter out filetypes you don't want to see
@@ -21,7 +21,8 @@ require("bufferline").setup{
             --    return true
             --end
             -- filter out by buffer name
-            if vim.fn.bufname(buf_number) ~= "bash" then
+            local buffername = vim.fn.bufname(buf_number) 
+            if not string.match(buffername, "bash") then
                 return true
             end
             -- filter out based on arbitrary rules
