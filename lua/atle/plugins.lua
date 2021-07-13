@@ -20,7 +20,7 @@ return require("packer").startup {
 
         -- lspconfig
         use "neovim/nvim-lspconfig"
-        use "nvim-lua/lsp-status.nvim"
+        --use "nvim-lua/lsp-status.nvim"
 
         -- nerd tree
         use "scrooloose/nerdtree"
