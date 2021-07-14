@@ -21,9 +21,13 @@ return require("packer").startup {
         -- lspconfig
         use "neovim/nvim-lspconfig"
         --use "nvim-lua/lsp-status.nvim"
-
-        -- nerd tree
-        use "scrooloose/nerdtree"
+        
+        -- file tree
+        --use "scrooloose/nerdtree"
+        use { 
+            "kyazdani42/nvim-tree.lua",
+            requires = { "kyazdani42/nvim-web-devicons" }
+        }
         
         -- FZF
         use "vijaymarupudi/nvim-fzf"
@@ -38,12 +42,12 @@ return require("packer").startup {
         }
 
         --" #### themes ####
-        use "tomasr/molokai"
-        use "glepnir/zephyr-nvim"
-        use "folke/tokyonight.nvim"
-        use {"bkegley/gloombuddy", requires = {"tjdevries/colorbuddy.vim"}}
-        use "lourenci/github-colors"
-        use "yashguptaz/calvera-dark.nvim"
+        --use "tomasr/molokai"
+        --use "glepnir/zephyr-nvim"
+        --use "folke/tokyonight.nvim"
+        --use {"bkegley/gloombuddy", requires = {"tjdevries/colorbuddy.vim"}}
+        --use "lourenci/github-colors"
+        --use "yashguptaz/calvera-dark.nvim"
         use "nxvu699134/vn-night.nvim"
 
         -- ## status line ""

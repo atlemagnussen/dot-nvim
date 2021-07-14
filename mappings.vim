@@ -14,7 +14,8 @@ map <F7> :bp<CR>
 map <F8> :PrettierAsync<CR>
 
 " NERDtree ###########################################################
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
+nnoremap <C-n> :NvimTreeToggle<CR>
 
 " Fzf ###########################################################
 map <C-t> :GFiles<CR>
