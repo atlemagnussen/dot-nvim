@@ -59,5 +59,8 @@ return require("packer").startup {
         }
         -- ## buffer line ##
         use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
+
+        -- ## terminal ##
+        use {"akinsho/nvim-toggleterm.lua"}
     end
 }
