@@ -20,7 +20,7 @@ nnoremap <C-n> :NvimTreeToggle<CR>
 " Fzf ###########################################################
 map <C-t> <cmd>lua require("atle.search").gfiles()<cr>
 map <C-f> <cmd>lua require("atle.search").files()<cr>
-map <C-g> <cmd>lua require("atle.search").rg()<cr>
+map <C-g> <cmd>lua require("atle.search").ag()<cr>
 
 nnoremap <leader>sv :source $MYVIMRC<CR>
 
