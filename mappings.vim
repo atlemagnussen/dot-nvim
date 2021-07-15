@@ -18,8 +18,8 @@ map <F8> :PrettierAsync<CR>
 nnoremap <C-n> :NvimTreeToggle<CR>
 
 " Fzf ###########################################################
-map <C-t> :GFiles<CR>
-map <C-f> <cmd>lua require("fzf-commands").files()<cr>
+map <C-t> <cmd>lua require("atle.search").gfiles()<cr>
+map <C-f> <cmd>lua require("atle.search").files()<cr>
 
 nnoremap <leader>sv :source $MYVIMRC<CR>
 
