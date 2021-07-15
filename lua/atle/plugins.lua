@@ -32,7 +32,7 @@ return require("packer").startup {
         -- FZF
         use "vijaymarupudi/nvim-fzf"
         use "vijaymarupudi/nvim-fzf-commands"
-        use "numkil/ag.nvim" 
+        --use "numkil/ag.nvim" 
         -- completion
         use "hrsh7th/nvim-compe"
 
