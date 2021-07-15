@@ -66,4 +66,5 @@ let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/inclu
 - [Monokai](https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim)
 - [Sunburst](https://raw.githubusercontent.com/sickill/vim-sunburst/master/colors/Sunburst.vim)
 - [Moonfly](https://raw.githubusercontent.com/bluz71/vim-moonfly-colors/master/colors/moonfly.vim)
+- [Dracula](https://github.com/dracula/vim)
 

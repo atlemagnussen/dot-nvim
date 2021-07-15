@@ -11,10 +11,10 @@ end
 M.gfiles = run_module("fzf-commands.files")
 M.files = run_module("atle.files")
 M.ag = run_module("atle.ag")
+M.rg = run_module("atle.rg")
 M.helptags = run_module("fzf-commands.helptags")
 M.bufferpicker = run_module("fzf-commands.bufferpicker")
 M.manpicker = run_module("fzf-commands.manpicker")
-M.rg = run_module("fzf-commands.rg")
 M.colorschemes = run_module("fzf-commands.colorschemes")
 M.bufferpicker2 = run_module("fzf-commands.bufferpicker2")
 
