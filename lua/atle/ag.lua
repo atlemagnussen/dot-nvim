@@ -74,9 +74,9 @@ return function(pattern, opts)
 
   opts = utils.normalize_opts(opts)
   coroutine.wrap(function ()
-    local agcmd = "ag " .. vim.fn.shellescape(pattern) .. " --vimgrep --nogroup ."
+    local agcmd = "ag --nogroup --column " .. vim.fn.shellescape(pattern)
 
-    local choices = fzf.fzf(agcmd, "--multi --ansi --expect=ctrl-t,ctrl-s,ctrl-v " .. "--preview " .. preview_action)
+    local choices = fzf.fzf(agcmd, "--multi --expect=ctrl-t,ctrl-s,ctrl-v " .. "--preview " .. preview_action)
     if not choices then return end
 
     local window_cmd
