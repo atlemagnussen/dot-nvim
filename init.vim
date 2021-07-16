@@ -3,10 +3,7 @@
 
 
 source ~/.config/nvim/mappings.vim
-"source ~/.config/nvim/plugins.vim
 lua require("atle.plugins")
-
-"luafile ~/.config/nvim/lspsetup.lua
 lua require("atle.lspsetup")
 lua require("atle.treesitter")
 
