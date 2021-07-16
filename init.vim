@@ -16,5 +16,7 @@ set autoindent
 "set copyindent      " copy indent from the previous line
 set mouse=a
 
+set hidden
 
 autocmd BufWritePost plugins.lua source <afile> | PackerCompile
+
