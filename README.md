@@ -62,9 +62,14 @@ let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/inclu
 - Then use `:Rg` in vim to search file content with regular expressions
 
 # Color themes
-- [Molokai](https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim)
-- [Monokai](https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim)
-- [Sunburst](https://raw.githubusercontent.com/sickill/vim-sunburst/master/colors/Sunburst.vim)
-- [Moonfly](https://raw.githubusercontent.com/bluz71/vim-moonfly-colors/master/colors/moonfly.vim)
+- [Molokai](https://github.com/tomasr/molokai)
+- [Zephyr](https://github.com/glepnir/zephyr-nvim)
+- [Tokyo Night](https://github.com/folke/tokyonight.nvim)
+- [Gloombuddy](https://github.com/bkegley/gloombuddy)
+- [Github-colors](https://github.com/lourenci/github-colors)
+- [Calvera-dark](https://github.com/yashguptaz/calvera-dark.nvim)
+- [Monokai](https://github.com/sickill/vim-monokai)
+- [Sunburst](https://github.com/sickill/vim-sunburst)
+- [Moonfly](https://github.com/bluz71/vim-moonfly-colors)
 - [Dracula](https://github.com/dracula/vim)
 

@@ -42,12 +42,6 @@ return require("packer").startup {
         }
 
         --" #### themes ####
-        --use "tomasr/molokai"
-        --use "glepnir/zephyr-nvim"
-        --use "folke/tokyonight.nvim"
-        --use {"bkegley/gloombuddy", requires = {"tjdevries/colorbuddy.vim"}}
-        --use "lourenci/github-colors"
-        --use "yashguptaz/calvera-dark.nvim"
         use "nxvu699134/vn-night.nvim"
 
         -- ## status line ""
@@ -62,5 +56,10 @@ return require("packer").startup {
 
         -- ## terminal ##
         use {"akinsho/nvim-toggleterm.lua"}
+
+
+        -- ## Language tech spesific
+        -- Svelte
+        use "evanleck/vim-svelte"
     end
 }
