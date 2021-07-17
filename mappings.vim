@@ -28,6 +28,8 @@ nnoremap <leader>r :<c-u>Rg<space>
 
 command! -nargs=1 Ag call luaeval('require("atle.search").ag(_A)', <f-args>)
 
+command! -nargs=0 ColorSchemes call luaeval('require("atle.search").colorschemes()', <f-args>)
+
 nnoremap <leader>sv :source $MYVIMRC<CR>
 
 " ALE

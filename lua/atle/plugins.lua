@@ -42,7 +42,8 @@ return require("packer").startup {
         }
 
         --" #### themes ####
-        use "nxvu699134/vn-night.nvim"
+        use "nxvu699134/vn-night.nvim" --primary
+        use "lourenci/github-colors"
 
         -- ## status line ""
         use { "glepnir/galaxyline.nvim", branch = 'main',
@@ -60,6 +61,6 @@ return require("packer").startup {
 
         -- ## Language tech spesific
         -- Svelte
-        use "evanleck/vim-svelte"
+        --|use "evanleck/vim-svelte"
     end
 }
