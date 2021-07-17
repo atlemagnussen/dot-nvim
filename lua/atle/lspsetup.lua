@@ -48,6 +48,7 @@ nvim_lsp.tsserver.setup{ on_attach = on_attach }
 -- ## svelte
 require'lspconfig'.svelte.setup{ on_attach = on_attach }
 
+-- ## completion
 require'compe'.setup {
   enabled = true;
   autocomplete = true;
@@ -73,3 +74,5 @@ require'compe'.setup {
     ultisnips = true;
   };
 }
+-- ## better lsp
+vim.lsp.handlers['textDocument/codeAction'] = require'lsputil.codeAction'.code_action_handler

@@ -20,8 +20,9 @@ return require("packer").startup {
 
         -- lspconfig
         use "neovim/nvim-lspconfig"
-        --use "nvim-lua/lsp-status.nvim"
-        
+        use "RishabhRD/popfix"
+        use "RishabhRD/nvim-lsputils"
+
         -- file tree
         --use "scrooloose/nerdtree"
         use { 
