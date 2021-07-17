@@ -44,6 +44,7 @@ return require("packer").startup {
         --" #### themes ####
         use "nxvu699134/vn-night.nvim" --primary
         use "lourenci/github-colors"
+        use "glepnir/zephyr-nvim"
 
         -- ## status line ""
         use { "glepnir/galaxyline.nvim", branch = 'main',
