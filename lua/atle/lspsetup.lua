@@ -38,12 +38,15 @@ local on_attach = function(client, bufnr)
   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
 
 end
-
+-- ## omnisharp c#
 nvim_lsp.omnisharp.setup{
     cmd = { omnisharp_bin, "--languageserver" , "--hostPID", tostring(pid) };
     on_attach = on_attach
 }
+-- ## typescript
 nvim_lsp.tsserver.setup{ on_attach = on_attach }
+-- ## svelte
+require'lspconfig'.svelte.setup{ on_attach = on_attach }
 
 require'compe'.setup {
   enabled = true;

@@ -4,20 +4,25 @@
 clone to $HOME/.config/nvim/
 [my cheat sheet](./cheatsheet.md)
 # Plugin manager
-Plug - https://github.com/junegunn/vim-plug
+**[Packer](https://github.com/wbthomason/packer.nvim)
+[Plug](https://github.com/junegunn/vim-plug)
 
-- will auto install plug and the plugin  on first nvim load after cloning to .vim
-
-# Plugins
-**bold** means currently in use
 
 ## LSP
-- **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**
-    - https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#omnisharp
-    - Download and extract [Omnisharp](https://github.com/OmniSharp/omnisharp-roslyn) and extraxt into ~/bin/omnisharp
+Language server from Neovim 0.5
+**[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**
+
+[Omnisharp setup](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#omnisharp)
+ - Download and extract [Omnisharp](https://github.com/OmniSharp/omnisharp-roslyn) and extraxt into ~/bin/omnisharp
+
+[Typescript](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#tsserver)
+
+[Svelte](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#svelte)
+
 
 ## File tree explorer
-- **[NerdTree](https://github.com/scrooloose/nerdtree)**
+- [Nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+- [NerdTree](https://github.com/scrooloose/nerdtree)
 - [Fila](https://github.com/lambdalisue/fila.vim)
 
 ## File finder
@@ -25,9 +30,9 @@ Plug - https://github.com/junegunn/vim-plug
 - [Command-T](https://github.com/wincent/command-t)
 
 ## Autocompletion
+- [Compe](https://github.com/hrsh7th/nvim-compe)
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 - [Deoplete](https://github.com/Shougo/deoplete.nvim)
-- [Coc](https://github.com/neoclide/coc.nvim)
 - [Asyncomplete](https://github.com/prabirshrestha/asyncomplete.vim)
 
 ## Linting
