@@ -40,6 +40,7 @@ Language server from Neovim 0.5
 - [Neomake](https://github.com/neomake/neomake)
 
 ## Syntax Highlighting
+- [(svelte) vim-svelte](https://github.com/evanleck/vim-svelte)
 - [(js) vim-javascript](https://github.com/pangloss/vim-javascript)
 - [(ts) YATS](https://github.com/HerringtonDarkholme/yats.vim)
 - [(C) Chromatica](https://github.com/arakashic/chromatica.nvim)
