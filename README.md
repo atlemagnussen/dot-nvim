@@ -4,8 +4,8 @@
 clone to $HOME/.config/nvim/
 [my cheat sheet](./cheatsheet.md)
 # Plugin manager
-**[Packer](https://github.com/wbthomason/packer.nvim)
-[Plug](https://github.com/junegunn/vim-plug)
+- **[Packer](https://github.com/wbthomason/packer.nvim)**
+- [Plug](https://github.com/junegunn/vim-plug)
 
 
 ## LSP
@@ -30,7 +30,7 @@ Language server from Neovim 0.5
 - [Command-T](https://github.com/wincent/command-t)
 
 ## Autocompletion
-- [Compe](https://github.com/hrsh7th/nvim-compe)
+- **[Compe](https://github.com/hrsh7th/nvim-compe)**
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 - [Deoplete](https://github.com/Shougo/deoplete.nvim)
 - [Asyncomplete](https://github.com/prabirshrestha/asyncomplete.vim)
