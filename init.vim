@@ -20,3 +20,5 @@ set hidden
 
 autocmd BufWritePost plugins.lua source <afile> | PackerCompile
 
+set guifont=Hack:h12
+
