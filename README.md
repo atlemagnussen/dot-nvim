@@ -70,6 +70,9 @@ let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/inclu
 - install [ripgrep](https://github.com/BurntSushi/ripgrep) to the system
 - Then use `:Rg` in vim to search file content with regular expressions
 
+### Bat
+- install [bat](https://github.com/sharkdp/bat) to the system for preview highlighting
+
 # Color themes
 - [Molokai](https://github.com/tomasr/molokai)
 - [Zephyr](https://github.com/glepnir/zephyr-nvim)
