@@ -16,6 +16,9 @@ Language server from Neovim 0.5
  - Download and extract [Omnisharp](https://github.com/OmniSharp/omnisharp-roslyn) and extraxt into ~/bin/omnisharp
 
 [Typescript](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#tsserver)
+```sh
+npm i -g typescript-language-server
+```
 
 [Svelte](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#svelte)
 
