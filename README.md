@@ -73,6 +73,9 @@ let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/inclu
 ### Bat
 - install [bat](https://github.com/sharkdp/bat) to the system for preview highlighting
 
+### fd 
+- install [fd](https://github.com/sharkdp/fd) to the system for file listing ctrl-f or ctrl-t
+
 # Color themes
 - [Molokai](https://github.com/tomasr/molokai)
 - [Zephyr](https://github.com/glepnir/zephyr-nvim)

@@ -1,5 +1,5 @@
 local fzf = require "fzf".fzf
-
+print("test fzf")
 local utils = require "fzf-commands.utils"
 
 local fn, api = utils.helpers()
@@ -7,13 +7,7 @@ local fn, api = utils.helpers()
 local function files(opts)
 
   opts = utils.normalize_opts(opts)
-  local command
-  if fn.executable("fd") == 1 then
-    command = "fd --no-ignore --color always -t f -L" 
-  else
-    -- tail to get rid of current directory from the results
-    command = "find . -type f -printf '%P\n' | tail +2"
-  end
+  local command = "find . -type f -not -path '*/\\.git/*' -printf '%P\\n' | tail +2"
 
   local preview
   if fn.executable("bat") == 1 then
@@ -54,4 +48,3 @@ local function files(opts)
 end
 
 return files
-
