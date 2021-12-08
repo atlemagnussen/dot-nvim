@@ -1,5 +1,5 @@
 require("toggleterm").setup{
     size = 10,
-    open_mapping = [[<c-a>]]
+    open_mapping = [[<c-b>]]
 }
 
