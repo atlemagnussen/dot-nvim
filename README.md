@@ -28,12 +28,12 @@ npm i -g typescript-language-server
 
 
 ## File tree explorer
-- [Nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+- **[Nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)**
 - [NerdTree](https://github.com/scrooloose/nerdtree)
 - [Fila](https://github.com/lambdalisue/fila.vim)
 
 ## File finder
-- **[FZF](https://github.com/junegunn/fzf.vim)**
+- **[nvim-fzf](https://github.com/vijaymarupudi/nvim-fzf)**
 - [Command-T](https://github.com/wincent/command-t)
 
 ## Autocompletion
@@ -64,7 +64,7 @@ let g:chromatica#libclang_path='/usr/lib/llvm-6.0/lib/libclang-6.0.so.1'
 let g:chromatica#global_args = ['-isystem/usr/lib/llvm-6.0/lib/clang/6.0.0/include']
 ```
 ### FZF
-- need `fzf` installed on system.
+- need [fzf](https://github.com/junegunn/fzf) installed on system.
 
 ### The Silver Searcher
 - install [Silver searcher](https://github.com/ggreer/the_silver_searcher) to the system
