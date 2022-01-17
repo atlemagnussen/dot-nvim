@@ -7,7 +7,7 @@ clone to $HOME/.config/nvim/
 - **[Packer](https://github.com/wbthomason/packer.nvim)**
   Install like this 
   ```sh
-  $ git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
+  $ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
   ```
 - [Plug](https://github.com/junegunn/vim-plug)
 
