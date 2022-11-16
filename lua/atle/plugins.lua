@@ -54,7 +54,8 @@ return require("packer").startup {
         -- ## terminal ##
         use {"akinsho/nvim-toggleterm.lua"}
 
-
+        -- ## nix syntax ##
+        use {"LnL7/vim-nix"}
         -- ## Language tech spesific
         -- Svelte
         --|use "evanleck/vim-svelte"
