@@ -3,8 +3,11 @@
 
 clone to $HOME/.config/nvim/
 [my cheat sheet](./cheatsheet.md)
+
 # Plugin manager
-- **[Packer](https://github.com/wbthomason/packer.nvim)**
+
+- **[lazy.nvim](https://github.com/folke/lazy.nvim)**
+- [Packer](https://github.com/wbthomason/packer.nvim)
   Install like this 
   ```sh
   $ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
